@@ -1,0 +1,169 @@
+/* removing this 8px margin that is there by default
+body tag will shift everything to the left 
+margin targets the left or sides */
+body{
+    margin: 0;
+    padding:0;
+}
+
+h1{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+    text-align: center;
+    color: white;
+}
+
+h2{ 
+    text-align: centre;
+    color: white;
+}
+img{
+        width:15%;
+        /* using % is better than using px */
+        height: auto;
+}
+p{
+    font-family: 'Calibri';
+    text-align: centre;
+    color: white;
+}
+
+button{
+    margin-top:50px;
+    width: 15%;
+    height: 50px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(30,187,215);
+    color: floralwhite;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+button:hover{
+    background-color: rgba(113,199,236);
+
+}
+.container{
+    width: 50%;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(3, 142, 184);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.btn-left{
+    float: left;
+    
+}
+
+.btn-right{
+    float: right;
+
+}
+
+.nav-button-container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.usertitle{
+
+    text-align: center;
+}
+.slide-container{
+    width: 50%;
+    height: 75vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(16,125,172);
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+/*Viewer slides */
+
+.btn-home{
+   position: relative;
+   display: block;
+   margin: 0 auto;
+   margin-top: 15px;
+}
+
+.slide0{
+    width: 80%;
+    height: 60vh;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    background-color: rgb(24,154,211);
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.piano{
+    width: 80%
+}
+
+
+/* When using a # it now means I'm using the id */
+
+
+#slide1{
+    display: none;
+    
+}
+
+#slide2{
+    display: none;
+    
+}
+
+input{
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    -webkit-transform: translate(-50%,-35%);
+    -moz-transform: translate(-50%,-35%);
+    -ms-transform: translate(-50%,-35%);
+    -o-transform: translate(-50%,-35%);
+}

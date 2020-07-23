@@ -1,0 +1,28 @@
+	whos using git?
+git config --global user.name "name"
+git config --global user.email "email"
+git config --global color.ui auto
+
+	creating your route folder for git (master)
+git init - initiates folder
+	copy and paste website files and folders to the folder
+git status - checks which directories/files need to be added
+add "file directory/files - add directories/files from git status
+git commit -m "report what has been added" - this saves all the files that have been moved to the folder
+						in the master branch
+
+git branch "name" - creates branch name
+
+	edit webpage - save it
+
+git checkout "branchname" - change to the branch you want to overwrite
+git status - checks for edited file and locates it
+git add "filedirectory" - add the file location from git status
+git commit -m "report what you changed" - this saves it on the current branch
+
+	refresh your webpage
+
+	to push it to github
+git remote add "nameofyourremote" "https://github.com/youraccount/" - make sure the link you copy is your
+									repository
+git push --set-upstream "remotename" "branchname"
